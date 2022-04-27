@@ -93,24 +93,19 @@ out our roadmap below.</p>
 	<div class="container">
 		<div class="row faq_row p-5">
         <div class="col-sm-12">
-        <h1 class="heading_h1 pb-3">Frequently Asked Questions  </h1>
+        <h1> 
         <div id="accordion">
                <div class="card">
                   <div class="card-header" id="headingOne">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i>           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     What are NFTs?                        </button>
+                        SOME QUESTION SOME TEXT SOME QUESTION ?
+                        </button>
                      </h5>
                   </div>
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                      <div class="card-body">
-<p>A non-fungible token (NFT) is a non-interchangeable unit of 
-data stored on a blockchain, a form of digital ledger, that can 
-be sold and traded.
-NFTs may be associated with digital files such as photos, 
-videos, and audio. Because each token is uniquely identifiable, 
-NFTs differ from blockchain cryptocurrencies, such as 
-Bitcoin.</p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum	
                      </div>
                   </div>
                </div>
@@ -119,34 +114,26 @@ Bitcoin.</p>
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What is Ethereum?
+                        SOME QUESTION SOME TEXT SOME QUESTION ?
                          </button>
                      </h5>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                      <div class="card-body">
-                     Ethereum is the community-run technology powering the 
-cryptocurrency ether (ETH) and thousands of decentralized 
-applications. Learn more on ethereum.org
-                                          </div>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                     </div>
                   </div>
                </div>
                <div class="card">
                   <div class="card-header" id="headingThree">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     What Wallets are Supported?
+                        SOME QUESTION SOME TEXT SOME QUESTION ?
                         	  </button>
                      </h5>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                      <div class="card-body">
-                     We recommend using MetaMask, which can be downloaded 
-from the MetaMask website. We support both the browser 
-plugin and the mobile apps.
-We also integrate with WalletConnect, which supports a 
-number of wallets. The full list can be found on 
-the WalletConnect website.                    </div>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                     </div>
                   </div>
                </div>
                <div class="card">
@@ -154,75 +141,28 @@ the WalletConnect website.                    </div>
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
-                        Where does my NFT go after I purchase a Pakalol 
-Buzz?
+                        SOME QUESTION SOME TEXT SOME QUESTION ?
                         </button>
                      </h5>
                   </div>
                   <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
                      <div class="card-body">
-                     Your wallet will own the NFT. You will be able to see the 
-contents of your wallet on your OpenSea profile, and some 
-wallets display your NFTs as well.
-</div>                  </div>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                     </div>
+                  </div>
                </div>
                <div class="card">
                   <div class="card-header" id="headingThreew">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i>  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreew" aria-expanded="false" aria-controls="collapseThree">
-                      Sounds awesome - How do I get involved?
+                        SOME QUESTION SOME TEXT SOME QUESTION ?
                        	</button>
                      </h5>
                   </div>
                   <div id="collapseThreew" class="collapse" aria-labelledby="headingThreew" data-parent="#accordion">
                      <div class="card-body">
-                     A great place to start is our Discord, home to a very large and 
-very active community of Pakalolo enthusiasts. You don't need 
-to be a Pakalolo holder to join us there! All are welcome to 
-jump into the conversation, let us know your ideas, and hang 
-out with many others who like the Buzz!
-</div>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                     </div>
                   </div>
                </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
-                        Are Pakalolo a good investment?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     The success of the project depends on many factors. We do 
-not have a crystal ball so it is impossible to know how it will 
-go. We strongly believe in our project and think it has a bright 
-future ahead, but ultimately you will have to decide for 
-yourself. <br />
-Only spend money if you can afford it!
-</div>                  </div>
-               </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
-                        Where did PakaloloBuzz come from?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     Our team comes from a group of business Men and Women, 
-that have a number business under their belt. We are looking 
-to bring a different way for people to make money in the NFT 
-Web3 marketplace. We are partnering on this project with —- 
-who is a great artist.
-</div>                  </div>
-               </div>
-
-               
         </div>
         </div>
 		

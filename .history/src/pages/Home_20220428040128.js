@@ -207,7 +207,7 @@ Only spend money if you can afford it!
                   <div class="card-header" id="headingThre">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
                         Where did PakaloloBuzz come from?
                         </button>
                      </h5>

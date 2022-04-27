@@ -125,10 +125,9 @@ Bitcoin.</p>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                      <div class="card-body">
-                     Ethereum is the community-run technology powering the 
+<p>Ethereum is the community-run technology powering the 
 cryptocurrency ether (ETH) and thousands of decentralized 
-applications. Learn more on ethereum.org
-                                          </div>
+applications. Learn more on ethereum.org</p>
                   </div>
                </div>
                <div class="card">
@@ -146,7 +145,7 @@ from the MetaMask website. We support both the browser
 plugin and the mobile apps.
 We also integrate with WalletConnect, which supports a 
 number of wallets. The full list can be found on 
-the WalletConnect website.                    </div>
+the WalletConnect website.
                   </div>
                </div>
                <div class="card">
@@ -164,13 +163,13 @@ Buzz?
                      Your wallet will own the NFT. You will be able to see the 
 contents of your wallet on your OpenSea profile, and some 
 wallets display your NFTs as well.
-</div>                  </div>
+                  </div>
                </div>
                <div class="card">
                   <div class="card-header" id="headingThreew">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i>  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreew" aria-expanded="false" aria-controls="collapseThree">
-                      Sounds awesome - How do I get involved?
+                     Sounds awesome - How do I get involved?
                        	</button>
                      </h5>
                   </div>
@@ -181,50 +180,10 @@ very active community of Pakalolo enthusiasts. You don't need
 to be a Pakalolo holder to join us there! All are welcome to 
 jump into the conversation, let us know your ideas, and hang 
 out with many others who like the Buzz!
-</div>
                   </div>
                </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
-                        Are Pakalolo a good investment?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     The success of the project depends on many factors. We do 
-not have a crystal ball so it is impossible to know how it will 
-go. We strongly believe in our project and think it has a bright 
-future ahead, but ultimately you will have to decide for 
-yourself. <br />
-Only spend money if you can afford it!
-</div>                  </div>
-               </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
-                        Where did PakaloloBuzz come from?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     Our team comes from a group of business Men and Women, 
-that have a number business under their belt. We are looking 
-to bring a different way for people to make money in the NFT 
-Web3 marketplace. We are partnering on this project with —- 
-who is a great artist.
-</div>                  </div>
-               </div>
-
-               
         </div>
-        </div>
+        
 		
                 </div>
                 </div>

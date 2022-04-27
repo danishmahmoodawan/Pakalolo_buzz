@@ -114,15 +114,13 @@ background-position: center top;
     box-shadow: none;
 }
 
-.card-body{
-    padding: 0 0 20px 0;
-}
 /* FAQ END */
 .cbw {
     margin-left: 19px;
     filter: invert(100%) sepia(0%);
     width: 50px;
   }
+  .card-body
   .footer_section{
       background: #fda700;
   }

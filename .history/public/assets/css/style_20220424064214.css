@@ -113,10 +113,6 @@ background-position: center top;
 .btn.focus, .btn:focus{
     box-shadow: none;
 }
-
-.card-body{
-    padding: 0 0 20px 0;
-}
 /* FAQ END */
 .cbw {
     margin-left: 19px;

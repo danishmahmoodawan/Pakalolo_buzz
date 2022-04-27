@@ -184,45 +184,6 @@ out with many others who like the Buzz!
 </div>
                   </div>
                </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
-                        Are Pakalolo a good investment?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     The success of the project depends on many factors. We do 
-not have a crystal ball so it is impossible to know how it will 
-go. We strongly believe in our project and think it has a bright 
-future ahead, but ultimately you will have to decide for 
-yourself. <br />
-Only spend money if you can afford it!
-</div>                  </div>
-               </div>
-               <div class="card">
-                  <div class="card-header" id="headingThre">
-                     <h5 class="mb-0">
-                     <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
-                        Where did PakaloloBuzz come from?
-                        </button>
-                     </h5>
-                  </div>
-                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div class="card-body">
-                     Our team comes from a group of business Men and Women, 
-that have a number business under their belt. We are looking 
-to bring a different way for people to make money in the NFT 
-Web3 marketplace. We are partnering on this project with —- 
-who is a great artist.
-</div>                  </div>
-               </div>
-
-               
         </div>
         </div>
 		

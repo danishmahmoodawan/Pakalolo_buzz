@@ -188,12 +188,12 @@ out with many others who like the Buzz!
                   <div class="card-header" id="headingThre">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
                         Are Pakalolo a good investment?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                  <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
                      <div class="card-body">
                      The success of the project depends on many factors. We do 
 not have a crystal ball so it is impossible to know how it will 
@@ -207,12 +207,12 @@ Only spend money if you can afford it!
                   <div class="card-header" id="headingThre">
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
                         Where did PakaloloBuzz come from?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                  <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
                      <div class="card-body">
                      Our team comes from a group of business Men and Women, 
 that have a number business under their belt. We are looking 
