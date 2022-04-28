@@ -173,78 +173,146 @@ out our roadmap below.</p>
 				</section>
 
   <section id="roadmap" class="roadmap">
-  <div class="container-fluid">
-  <div class="row team_row text-center">
-        <div class="col-12">
-        
-        <h1 class="heading_h1 pb-5">ROADMAP</h1></div>
-        </div> 
+  <div class="container">
 <div class="timeline">
 		<div class="timeline-row">
 			<div class="timeline-time">
-				<h3 class="heading_h1 ">Phase 1</h3>
+				7:45PM<small>Dec 21</small>
 			</div>
 			<div class="timeline-content">
-                
-				<p class="timeline_phase text-left"> 
-                <li>Launch Twiter, Instagram, Discord Communitys</li>
-                <li>Offer some FREE Pakalolo Buzz Merch to Members</li>
-                <li>Launch Minting</li>
-                <li>Collaborations and future surprise are already in pipeline</li>
-
-                </p>
+				<i class="icon-attachment"></i>
+				<h4>Admin theme!</h4>
+				<p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
 				<div class="thumbs">
-                <img className="seicn cbw img-fluid" src="assets/images/twitter.svg"/>
-                <img className="seicn cbw" src="assets/images/discord.svg"/>
-                <img className="seicn " src="assets/images/icon/icons8-instagram.svg"/>
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+				</div>
+				<div class="">
+					<span class="badge badge-pill">Sales</span>
+					<span class="badge badge-pill">Admin</span>
 				</div>
 			</div>
 		</div>
 
 		<div class="timeline-row">
 			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 2</h3>
+				8:00 AM<small>Dec 18</small>
 			</div>
 			<div class="timeline-content">
-				<p class="timeline_phase text-left"> 
-                <li>Opening of the Pakalolo Buzz Shop</li>
-                <li>Launch Membership platform for profit sharing and supporting 
-other creative minds. “Yes we are going to make NFT projects 
-for some of our member on our dime, and you will make part 
-of the profits! More one this later, but we are looking to 
-support someone else for FREE very soon!</li>
-               
-                </p>
-				
-					</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 3</h3>
-			</div>
-			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Buy land in the Sandbox for future metaverse integration</li>
-                <li>Begin building the 3D Pakalolo for metaverse integration</li>	
-	
-                </p>
+				<i class="icon-code"></i>
+				<h4>Admin Dashboard!</h4>
+				<p>
+					Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar.
+				</p>
+				<div class="thumbs">
+					<div class="thumbs">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+				</div>
+				</div>
+				<div class="">
+					<span class="badge badge-pill">Graphs</span>
+					<span class="badge badge-pill">Chat</span>
+				</div>
 			</div>
 		</div>
 
 		<div class="timeline-row">
 			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 4</h3>
+				7:25 PM<small>Dec 6</small>
 			</div>
 			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Start the development of Roadmap 2.0 with the community</li>
-                <li>Continue to support more Pakalolo holders NFT’s and continue 
-to grow the Pakalolo Buzz community Income threw the join 
-ventures.</li>	
-	
-                </p>
-			
+				<i class="icon-turned_in_not"></i>
+				<h4>Best Admin Template!</h4>
+				<p>Custom C3 graphs, Custom flot graphs, flot graphs, small graphs, Sass, profile and timeline.</p>
+				<div>
+					<span class="badge badge-pill">Invoice</span>
+					<span class="badge badge-pill">Tasks</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="timeline-row">
+			<div class="timeline-time">
+				3:55 PM<small>Dec 26</small>
+			</div>
+			<div class="timeline-content">
+				<i class="icon-directions"></i>
+				<h4>Maxwell Admin</h4>
+				<p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
+				<div>
+					<span class="badge badge-pill">Profile</span>
+					<span class="badge badge-pill">Sales</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="timeline-row">
+			<div class="timeline-time">
+				5:24 PM<small>Dec 12</small>
+			</div>
+			<div class="timeline-content">
+				<i class="icon-change_history"></i>
+				<h4>Maxwell Dashboard</h4>
+				<p class="no-margin">Maxwell Admin dashboard includes invoice, profile, tasks, gallery, projects, maintanence.</p>
+				<div class="thumbs">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="Maxwell Admin">
+				</div>
+				<div>
+					<span class="badge badge-pill">Analytics</span>
+					<span class="badge badge-pill">Contacts</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="timeline-row">
+			<div class="timeline-time">
+				8:00 AM<small>Dec 18</small>
+			</div>
+			<div class="timeline-content">
+				<i class="icon-code"></i>
+				<h4>Admin Dashboard!</h4>
+				<p>
+					Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar.
+				</p>
+				<div class="thumbs">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="Maxwell Admin">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+				</div>
+				<div class="">
+					<span class="badge badge-pill">Ecommerce</span>
+					<span class="badge badge-pill">CRM</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="timeline-row">
+			<div class="timeline-time">
+				7:45PM<small>Dec 21</small>
+			</div>
+			<div class="timeline-content">
+				<i class="icon-attachment"></i>
+				<h4>Admin Template!</h4>
+				<p>Maxwell Admin Dashboard contains C3 graphs, flot graphs, data tables, calendar, drag &amp; drop and ion slider.</p>
+				<div class="thumbs">
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="Maxwell Admin" /> 
+					<img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin" />
+				</div>
+				<div class="">
+					<span class="badge badge-pill">Orders</span>
+					<span class="badge badge-pill">Sales</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="timeline-row">
+			<div class="timeline-content">
+				<p class="m-0">Loading...</p>
 			</div>
 		</div>
 

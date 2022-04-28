@@ -185,7 +185,7 @@ out our roadmap below.</p>
 				<h3 class="heading_h1 ">Phase 1</h3>
 			</div>
 			<div class="timeline-content">
-                
+				<i class="icon-attachment"></i>
 				<p class="timeline_phase text-left"> 
                 <li>Launch Twiter, Instagram, Discord Communitys</li>
                 <li>Offer some FREE Pakalolo Buzz Merch to Members</li>
@@ -206,6 +206,7 @@ out our roadmap below.</p>
             <h3 class="heading_h1 ">Phase 2</h3>
 			</div>
 			<div class="timeline-content">
+				<i class="icon-code"></i>
 				<p class="timeline_phase text-left"> 
                 <li>Opening of the Pakalolo Buzz Shop</li>
                 <li>Launch Membership platform for profit sharing and supporting 
@@ -224,6 +225,7 @@ support someone else for FREE very soon!</li>
             <h3 class="heading_h1 ">Phase 3</h3>
 			</div>
 			<div class="timeline-content">
+				<i class="icon-turned_in_not"></i>
                 <p class="timeline_phase text-left"> 
                 <li>Buy land in the Sandbox for future metaverse integration</li>
                 <li>Begin building the 3D Pakalolo for metaverse integration</li>	
@@ -237,6 +239,7 @@ support someone else for FREE very soon!</li>
             <h3 class="heading_h1 ">Phase 4</h3>
 			</div>
 			<div class="timeline-content">
+				<i class="icon-directions"></i>
                 <p class="timeline_phase text-left"> 
                 <li>Start the development of Roadmap 2.0 with the community</li>
                 <li>Continue to support more Pakalolo holders NFT’s and continue 

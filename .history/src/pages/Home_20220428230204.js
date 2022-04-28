@@ -91,168 +91,47 @@ out our roadmap below.</p>
 
 
                 <section id="about_team" class="team_section">
-	<div class="container-fluid">
-		<div class="row team_row text-center">
-        <div class="col-12">
-        <h1 class="heading_h1 pb-5">TEAM</h1></div>
+	<div class="container">
+		<div class="row custom_row p-5">
+        <h1>TEAM</h1>
+        <div class="col-sm-12 c text-center">
+        <img className="img_set" src="assets/images/images1.gif"/>
         </div>
-        <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div class="member_card">
-        <div class="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
-        <div class="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
-                            </a>
-                            </div> </div>
-        <div class="content_member">
-        <h3 class="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 class="member_disg">Creative Director</h3>
-        <span class="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
+        <div class="col-sm-6">
+        <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
+        <p className="para_p">Pakalolo Buzz is a community driven <br/>
+collection of 10k randomly generated 
+NFTs on the Ethereum blockchain
+Each Pakalolo is totally unique and 
+comes with different traits and 
+varying in rarity. An will be as your 
+ticket into the first Web3 Membership 
+platform for profit sharing and 
+supporting other creative minds.</p>
         </div>
-    
-        </div>
-       </div>
-
-         <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div class="member_card">
-        <div class="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
-        <div class="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
-                            </a>
-                            </div> </div>
-        <div class="content_member">
-        <h3 class="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 class="member_disg">Creative Director</h3>
-        <span class="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
-        </div>
-    
-        </div>
-       </div>
-
-
-         <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div class="member_card">
-        <div class="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
-        <div class="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
-                            </a>
-                            </div> </div>
-        <div class="content_member">
-        <h3 class="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 class="member_disg">Creative Director</h3>
-        <span class="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
-        </div>
-    
-        </div>
-       </div>
-
-
-         <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div class="member_card">
-        <div class="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
-        <div class="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
-                            </a>
-                            </div> </div>
-        <div class="content_member">
-        <h3 class="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 class="member_disg">Creative Director</h3>
-        <span class="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
-        </div>
-    
-        </div>
-       </div>
 		
                 </div>
-          
+                <div class="row custom_rows p-5 mb-5">
+        <div class="col-sm-6 ">
+        <h1 className="heading_h1">HOW DOES THIS WORK?</h1>
+        <p className="para_p">Pakalolo Buzz holders can participate 
+in exclusive events, such as: NFT 
+claims, raffles, giveaways and much, 
+much more. <br/><br/>
+Don't forget, all Pakalolo are special -- 
+but some are exceptionally special.<br/>
+... and the best is yet to come, check 
+out our roadmap below.</p>
+        </div>
+        <div class="col-sm-6 text-center">
+
+<img className="img_set" src="assets/images/images1.gif"/>
+
+        </div>
+			
+				</div>	
 				</div>
 				</section>
-
-  <section id="roadmap" class="roadmap">
-  <div class="container-fluid">
-  <div class="row team_row text-center">
-        <div class="col-12">
-        
-        <h1 class="heading_h1 pb-5">ROADMAP</h1></div>
-        </div> 
-<div class="timeline">
-		<div class="timeline-row">
-			<div class="timeline-time">
-				<h3 class="heading_h1 ">Phase 1</h3>
-			</div>
-			<div class="timeline-content">
-                
-				<p class="timeline_phase text-left"> 
-                <li>Launch Twiter, Instagram, Discord Communitys</li>
-                <li>Offer some FREE Pakalolo Buzz Merch to Members</li>
-                <li>Launch Minting</li>
-                <li>Collaborations and future surprise are already in pipeline</li>
-
-                </p>
-				<div class="thumbs">
-                <img className="seicn cbw img-fluid" src="assets/images/twitter.svg"/>
-                <img className="seicn cbw" src="assets/images/discord.svg"/>
-                <img className="seicn " src="assets/images/icon/icons8-instagram.svg"/>
-				</div>
-			</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 2</h3>
-			</div>
-			<div class="timeline-content">
-				<p class="timeline_phase text-left"> 
-                <li>Opening of the Pakalolo Buzz Shop</li>
-                <li>Launch Membership platform for profit sharing and supporting 
-other creative minds. “Yes we are going to make NFT projects 
-for some of our member on our dime, and you will make part 
-of the profits! More one this later, but we are looking to 
-support someone else for FREE very soon!</li>
-               
-                </p>
-				
-					</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 3</h3>
-			</div>
-			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Buy land in the Sandbox for future metaverse integration</li>
-                <li>Begin building the 3D Pakalolo for metaverse integration</li>	
-	
-                </p>
-			</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 4</h3>
-			</div>
-			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Start the development of Roadmap 2.0 with the community</li>
-                <li>Continue to support more Pakalolo holders NFT’s and continue 
-to grow the Pakalolo Buzz community Income threw the join 
-ventures.</li>	
-	
-                </p>
-			
-			</div>
-		</div>
-
-	</div>
-</div>
-    
-        </section>
-
 
                 <section  id="pakalolo_faq" class="faq_section">
 	<div class="container">

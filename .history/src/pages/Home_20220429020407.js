@@ -173,84 +173,15 @@ out our roadmap below.</p>
 				</section>
 
   <section id="roadmap" class="roadmap">
-  <div class="container-fluid">
-  <div class="row team_row text-center">
+	<div class="container-fluid">
+		<div class="row team_row text-center">
         <div class="col-12">
-        
         <h1 class="heading_h1 pb-5">ROADMAP</h1></div>
-        </div> 
-<div class="timeline">
-		<div class="timeline-row">
-			<div class="timeline-time">
-				<h3 class="heading_h1 ">Phase 1</h3>
-			</div>
-			<div class="timeline-content">
-                
-				<p class="timeline_phase text-left"> 
-                <li>Launch Twiter, Instagram, Discord Communitys</li>
-                <li>Offer some FREE Pakalolo Buzz Merch to Members</li>
-                <li>Launch Minting</li>
-                <li>Collaborations and future surprise are already in pipeline</li>
-
-                </p>
-				<div class="thumbs">
-                <img className="seicn cbw img-fluid" src="assets/images/twitter.svg"/>
-                <img className="seicn cbw" src="assets/images/discord.svg"/>
-                <img className="seicn " src="assets/images/icon/icons8-instagram.svg"/>
-				</div>
-			</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 2</h3>
-			</div>
-			<div class="timeline-content">
-				<p class="timeline_phase text-left"> 
-                <li>Opening of the Pakalolo Buzz Shop</li>
-                <li>Launch Membership platform for profit sharing and supporting 
-other creative minds. “Yes we are going to make NFT projects 
-for some of our member on our dime, and you will make part 
-of the profits! More one this later, but we are looking to 
-support someone else for FREE very soon!</li>
-               
-                </p>
-				
-					</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 3</h3>
-			</div>
-			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Buy land in the Sandbox for future metaverse integration</li>
-                <li>Begin building the 3D Pakalolo for metaverse integration</li>	
-	
-                </p>
-			</div>
-		</div>
-
-		<div class="timeline-row">
-			<div class="timeline-time">
-            <h3 class="heading_h1 ">Phase 4</h3>
-			</div>
-			<div class="timeline-content">
-                <p class="timeline_phase text-left"> 
-                <li>Start the development of Roadmap 2.0 with the community</li>
-                <li>Continue to support more Pakalolo holders NFT’s and continue 
-to grow the Pakalolo Buzz community Income threw the join 
-ventures.</li>	
-	
-                </p>
-			
-			</div>
-		</div>
-
-	</div>
-</div>
-    
+        </div>
+        <div class="row">
+        /
+        </div>
+        </div>
         </section>
 
 

@@ -144,14 +144,10 @@ background-position: center top;
 }
 
 /* Timeline START */
-.timeline_phase{
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-}
+
 .timeline {
     position: relative;
-    background: #9420ce;
+    background: #272e48;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
