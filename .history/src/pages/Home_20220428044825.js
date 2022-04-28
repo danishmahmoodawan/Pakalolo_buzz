@@ -154,7 +154,8 @@ the WalletConnect website.                    </div>
                      <h5 class="mb-0">
                      <i class="fas fa-circle circle_color"></i> 
                         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
-                        Where does my NFT go after I purchase a Pakalolo Buzz?
+                        Where does my NFT go after I purchase a Pakalolo 
+Buzz?
                         </button>
                      </h5>
                   </div>
