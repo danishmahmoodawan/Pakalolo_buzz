@@ -100,9 +100,7 @@ width: 100%;
 .img_sm:hover{
     opacity: 0;
 }
-.logo_s{
-    padding-bottom: 12px;
-}
+.logo_s
   .team-socials{
     display: flex;
     flex-direction: column;
@@ -430,17 +428,6 @@ margin-top: -5%;
   @media only screen and (max-width: 767px) {
  .logo_s{
      width: 100%;
-     padding-bottom: 0;
-    }
-    .navbar-brand{
-        display: block;
-        margin: 0 auto;
-    }
-    .team_row .pb-5 {
-padding-bottom: 0 !important;
-    }
-    #roadmap{
-        padding: 4% 1% 4% 1%;
     }
     .background_sec{
         background-size: contain;

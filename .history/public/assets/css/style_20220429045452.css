@@ -430,17 +430,9 @@ margin-top: -5%;
   @media only screen and (max-width: 767px) {
  .logo_s{
      width: 100%;
-     padding-bottom: 0;
-    }
-    .navbar-brand{
-        display: block;
-        margin: 0 auto;
     }
     .team_row .pb-5 {
-padding-bottom: 0 !important;
-    }
-    #roadmap{
-        padding: 4% 1% 4% 1%;
+
     }
     .background_sec{
         background-size: contain;
