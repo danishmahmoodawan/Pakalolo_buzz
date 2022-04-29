@@ -397,6 +397,7 @@ who is a great artist.
 	<div class="container">
 		<div class="row faq_row pt-5 pb-3">
         <div class="col-sm-12 text-center">
+        <h1 className="heading_h1">PAKALOLO BUZZ </h1>
         <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
 
 
