@@ -53,7 +53,7 @@ function Home() {
         <div className="col-sm-6 text-center">
         <img className="img_set" src="assets/images/images1.gif"/>
         </div>
-        <div className="col-sm-6">
+        <div class="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
         <p className="para_p">Pakalolo Buzz is a community driven <br/>
 collection of 10k randomly generated 
@@ -357,8 +357,8 @@ out with many others who like the Buzz!
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThret" className="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                     <div class="card-body">
                      The success of the project depends on many factors. We do 
 not have a crystal ball so it is impossible to know how it will 
 go. We strongly believe in our project and think it has a bright 
@@ -367,17 +367,17 @@ yourself. <br />
 Only spend money if you can afford it!
 </div>                  </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThre">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> 
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThre">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> 
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
                         Where did PakaloloBuzz come from?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThres" className="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                     <div class="card-body">
                      Our team comes from a group of business Men and Women, 
 that have a number business under their belt. We are looking 
 to bring a different way for people to make money in the NFT 
@@ -393,10 +393,10 @@ who is a great artist.
                 </div>
                 </div>
 				</section>
-                                <section  id="footer" className="footer_section">
-	<div className="container">
-		<div className="row faq_row pt-5 pb-3">
-        <div className="col-sm-12 text-center">
+                                <section  id="footer" class="footer_section">
+	<div class="container">
+		<div class="row faq_row pt-5 pb-3">
+        <div class="col-sm-12 text-center">
         <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
 
 

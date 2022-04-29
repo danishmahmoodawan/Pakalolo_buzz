@@ -53,7 +53,7 @@ function Home() {
         <div className="col-sm-6 text-center">
         <img className="img_set" src="assets/images/images1.gif"/>
         </div>
-        <div className="col-sm-6">
+        <div class="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
         <p className="para_p">Pakalolo Buzz is a community driven <br/>
 collection of 10k randomly generated 

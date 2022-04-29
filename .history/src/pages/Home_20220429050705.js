@@ -53,7 +53,7 @@ function Home() {
         <div className="col-sm-6 text-center">
         <img className="img_set" src="assets/images/images1.gif"/>
         </div>
-        <div className="col-sm-6">
+        <div class="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
         <p className="para_p">Pakalolo Buzz is a community driven <br/>
 collection of 10k randomly generated 
@@ -158,10 +158,10 @@ out our roadmap below.</p>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
                             </div> </div>
-        <div className="content_member">
-        <h3 className="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
+        <div class="content_member">
+        <h3 class="member_name">kickRRR / Mikael Tyrsen</h3>
+        <h3 class="member_disg">Creative Director</h3>
+        <span class="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
         </div>
     
         </div>
@@ -172,28 +172,28 @@ out our roadmap below.</p>
 				</div>
 				</section>
 
-  <section id="roadmap" className="roadmap">
-  <div className="container-fluid">
-  <div className="row team_row text-center">
-        <div className="col-12">
+  <section id="roadmap" class="roadmap">
+  <div class="container-fluid">
+  <div class="row team_row text-center">
+        <div class="col-12">
         
-        <h1 className="heading_h1 pb-5">ROADMAP</h1></div>
+        <h1 class="heading_h1 pb-5">ROADMAP</h1></div>
         </div> 
-<div className="timeline">
-		<div className="timeline-row">
-			<div className="timeline-time">
-				<h3 className="heading_h1 ">Phase 1</h3>
+<div class="timeline">
+		<div class="timeline-row">
+			<div class="timeline-time">
+				<h3 class="heading_h1 ">Phase 1</h3>
 			</div>
-			<div className="timeline-content">
+			<div class="timeline-content">
                 
-				<p className="timeline_phase text-left"> 
+				<p class="timeline_phase text-left"> 
                 <li>Launch Twiter, Instagram, Discord Communitys</li>
                 <li>Offer some FREE Pakalolo Buzz Merch to Members</li>
                 <li>Launch Minting</li>
                 <li>Collaborations and future surprise are already in pipeline</li>
 
                 </p>
-				<div className="thumbs">
+				<div class="thumbs">
                 <img className="seicn cbw img-fluid" src="assets/images/twitter.svg"/>
                 <img className="seicn cbw" src="assets/images/discord.svg"/>
                 <img className="seicn " src="assets/images/icon/icons8-instagram.svg"/>
@@ -201,12 +201,12 @@ out our roadmap below.</p>
 			</div>
 		</div>
 
-		<div className="timeline-row">
-			<div className="timeline-time">
-            <h3 className="heading_h1 ">Phase 2</h3>
+		<div class="timeline-row">
+			<div class="timeline-time">
+            <h3 class="heading_h1 ">Phase 2</h3>
 			</div>
-			<div className="timeline-content">
-				<p className="timeline_phase text-left"> 
+			<div class="timeline-content">
+				<p class="timeline_phase text-left"> 
                 <li>Opening of the Pakalolo Buzz Shop</li>
                 <li>Launch Membership platform for profit sharing and supporting 
 other creative minds. “Yes we are going to make NFT projects 
@@ -219,12 +219,12 @@ support someone else for FREE very soon!</li>
 					</div>
 		</div>
 
-		<div className="timeline-row">
-			<div className="timeline-time">
-            <h3 className="heading_h1 ">Phase 3</h3>
+		<div class="timeline-row">
+			<div class="timeline-time">
+            <h3 class="heading_h1 ">Phase 3</h3>
 			</div>
-			<div className="timeline-content">
-                <p className="timeline_phase text-left"> 
+			<div class="timeline-content">
+                <p class="timeline_phase text-left"> 
                 <li>Buy land in the Sandbox for future metaverse integration</li>
                 <li>Begin building the 3D Pakalolo for metaverse integration</li>	
 	
@@ -232,12 +232,12 @@ support someone else for FREE very soon!</li>
 			</div>
 		</div>
 
-		<div className="timeline-row">
-			<div className="timeline-time">
-            <h3 className="heading_h1 ">Phase 4</h3>
+		<div class="timeline-row">
+			<div class="timeline-time">
+            <h3 class="heading_h1 ">Phase 4</h3>
 			</div>
-			<div className="timeline-content">
-                <p className="timeline_phase text-left"> 
+			<div class="timeline-content">
+                <p class="timeline_phase text-left"> 
                 <li>Start the development of Roadmap 2.0 with the community</li>
                 <li>Continue to support more Pakalolo holders NFT’s and continue 
 to grow the Pakalolo Buzz community Income threw the join 
@@ -254,21 +254,21 @@ ventures.</li>
         </section>
 
 
-                <section  id="pakalolo_faq" className="faq_section">
-	<div className="container">
-		<div className="row faq_row p-5">
-        <div className="col-sm-12">
-        <h1 className="heading_h1 pb-3">Frequently Asked Questions  </h1>
+                <section  id="pakalolo_faq" class="faq_section">
+	<div class="container">
+		<div class="row faq_row p-5">
+        <div class="col-sm-12">
+        <h1 class="heading_h1 pb-3">Frequently Asked Questions  </h1>
         <div id="accordion">
-               <div className="card">
-                  <div className="card-header" id="headingOne">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i>           <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               <div class="card">
+                  <div class="card-header" id="headingOne">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i>           <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                      What are NFTs?                        </button>
                      </h5>
                   </div>
-                  <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                     <div class="card-body">
 <p>A non-fungible token (NFT) is a non-interchangeable unit of 
 data stored on a blockchain, a form of digital ledger, that can 
 be sold and traded.
@@ -279,33 +279,33 @@ Bitcoin.</p>
                      </div>
                   </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingTwo">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> 
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               <div class="card">
+                  <div class="card-header" id="headingTwo">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> 
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         What is Ethereum?
                          </button>
                      </h5>
                   </div>
-                  <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                     <div class="card-body">
                      Ethereum is the community-run technology powering the 
 cryptocurrency ether (ETH) and thousands of decentralized 
 applications. Learn more on ethereum.org
                                           </div>
                   </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThree">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThree">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                      What Wallets are Supported?
                         	  </button>
                      </h5>
                   </div>
-                  <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                     <div class="card-body">
                      We recommend using MetaMask, which can be downloaded 
 from the MetaMask website. We support both the browser 
 plugin and the mobile apps.
@@ -314,32 +314,32 @@ number of wallets. The full list can be found on
 the WalletConnect website.                    </div>
                   </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThre">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> 
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThre">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> 
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThre" aria-expanded="false" aria-controls="collapseThree">
                         Where does my NFT go after I purchase a Pakalolo Buzz?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThre" className="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThre" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                     <div class="card-body">
                      Your wallet will own the NFT. You will be able to see the 
 contents of your wallet on your OpenSea profile, and some 
 wallets display your NFTs as well.
 </div>                  </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThreew">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i>  <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreew" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThreew">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i>  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThreew" aria-expanded="false" aria-controls="collapseThree">
                       Sounds awesome - How do I get involved?
                        	</button>
                      </h5>
                   </div>
-                  <div id="collapseThreew" className="collapse" aria-labelledby="headingThreew" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThreew" class="collapse" aria-labelledby="headingThreew" data-parent="#accordion">
+                     <div class="card-body">
                      A great place to start is our Discord, home to a very large and 
 very active community of Pakalolo enthusiasts. You don't need 
 to be a Pakalolo holder to join us there! All are welcome to 
@@ -348,17 +348,17 @@ out with many others who like the Buzz!
 </div>
                   </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThre">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> 
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThre">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> 
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThret" aria-expanded="false" aria-controls="collapseThree">
                         Are Pakalolo a good investment?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThret" className="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThret" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                     <div class="card-body">
                      The success of the project depends on many factors. We do 
 not have a crystal ball so it is impossible to know how it will 
 go. We strongly believe in our project and think it has a bright 
@@ -367,17 +367,17 @@ yourself. <br />
 Only spend money if you can afford it!
 </div>                  </div>
                </div>
-               <div className="card">
-                  <div className="card-header" id="headingThre">
-                     <h5 className="mb-0">
-                     <i className="fas fa-circle circle_color"></i> 
-                        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
+               <div class="card">
+                  <div class="card-header" id="headingThre">
+                     <h5 class="mb-0">
+                     <i class="fas fa-circle circle_color"></i> 
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThres" aria-expanded="false" aria-controls="collapseThree">
                         Where did PakaloloBuzz come from?
                         </button>
                      </h5>
                   </div>
-                  <div id="collapseThres" className="collapse" aria-labelledby="headingThre" data-parent="#accordion">
-                     <div className="card-body">
+                  <div id="collapseThres" class="collapse" aria-labelledby="headingThre" data-parent="#accordion">
+                     <div class="card-body">
                      Our team comes from a group of business Men and Women, 
 that have a number business under their belt. We are looking 
 to bring a different way for people to make money in the NFT 
@@ -393,10 +393,10 @@ who is a great artist.
                 </div>
                 </div>
 				</section>
-                                <section  id="footer" className="footer_section">
-	<div className="container">
-		<div className="row faq_row pt-5 pb-3">
-        <div className="col-sm-12 text-center">
+                                <section  id="footer" class="footer_section">
+	<div class="container">
+		<div class="row faq_row pt-5 pb-3">
+        <div class="col-sm-12 text-center">
         <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
 
 

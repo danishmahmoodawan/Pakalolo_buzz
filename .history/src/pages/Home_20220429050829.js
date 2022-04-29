@@ -53,7 +53,7 @@ function Home() {
         <div className="col-sm-6 text-center">
         <img className="img_set" src="assets/images/images1.gif"/>
         </div>
-        <div className="col-sm-6">
+        <div class="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
         <p className="para_p">Pakalolo Buzz is a community driven <br/>
 collection of 10k randomly generated 
@@ -394,9 +394,9 @@ who is a great artist.
                 </div>
 				</section>
                                 <section  id="footer" className="footer_section">
-	<div className="container">
-		<div className="row faq_row pt-5 pb-3">
-        <div className="col-sm-12 text-center">
+	<div class="container">
+		<div class="row faq_row pt-5 pb-3">
+        <div class="col-sm-12 text-center">
         <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
 
 
