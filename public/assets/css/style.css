@@ -63,10 +63,16 @@ width: 100%;
   .navbar-nav li:last-child{
     margin-right: 10px;
   }
+  .set_fair{
+    margin: 0 auto;
+    border-top: solid 2px;
+    margin-top: 10%;
+    font-size: 40px;
+  }
   .para_p {
     color: #f0eaea;
-    font-weight: 400;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 21px;
   }
   .member_name{
     font-size: 1.3em;

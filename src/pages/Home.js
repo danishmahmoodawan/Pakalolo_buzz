@@ -55,15 +55,10 @@ function Home() {
         </div>
         <div className="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
-        <p className="para_p">Pakalolo Buzz is a community driven <br/>
-collection of 10k randomly generated 
-NFTs on the Ethereum blockchain
-Each Pakalolo is totally unique and 
-comes with different traits and 
-varying in rarity. An will be as your 
-ticket into the first Web3 Membership 
-platform for profit sharing and 
-supporting other creative minds.</p>
+        <p className="para_p">Pakalolo Buzz is a community driven collection of 10k randomly generated NFT’s on the Ethereum blockchain.<br />
+        Each Pakalolo is totally unique and comes with different traits and varying in rarity. <br /> <br />
+        Each one will be your ticket into the 1st Web3 membership platform for profit sharing and supporting other creative minds. <br /> 
+        </p>
         </div>
 		
                 </div>
@@ -81,7 +76,7 @@ out our roadmap below.</p>
         </div>
         <div className="col-sm-6 text-center">
 
-<img className="img_set" src="assets/images/images1.gif"/>
+<img className="img_set" src="assets/images/image3.png"/>
 
         </div>
 			
@@ -106,9 +101,9 @@ out our roadmap below.</p>
                             </a>
                             </div> </div>
         <div className="content_member">
-        <h3 className="member_name">kickRRR / Mikael Tyrsen</h3>
+        <h3 className="member_name">Smoking Tester</h3>
         <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
+        <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
         </div>
     
         </div>
@@ -123,27 +118,14 @@ out our roadmap below.</p>
                             </a>
                             </div> </div>
         <div className="content_member">
-        <h3 className="member_name">kickRRR / Mikael Tyrsen</h3>
+        <h3 className="member_name">Clay</h3>
         <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
-        </div>
-    
-        </div>
-       </div>
+        <span className="member_bio">I have be in the internet space of some kind all the way back to basic programing on a Radio Shack TSR-80 computer. 
 
+That is before floppy drives or cloud storage. 
 
-         <div className="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
-        <div className="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
-                            </a>
-                            </div> </div>
-        <div className="content_member">
-        <h3 className="member_name">kickRRR / Mikael Tyrsen</h3>
-        <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
+Yes we had computers back then. I have been in the website building to games on the app stores. I look forward to bring some ideas to the NFT market that will hopefully bring some income to us all. More to come about that but we are going to help some holds of our NFT’s make there on project ROAD MAP.
+</span>
         </div>
     
         </div>
@@ -159,9 +141,27 @@ out our roadmap below.</p>
                             </a>
                             </div> </div>
         <div className="content_member">
-        <h3 className="member_name">kickRRR / Mikael Tyrsen</h3>
+        <h3 className="member_name">Talal</h3>
         <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">Mikael Tyrsen is an award winning Los Angeles based Director inspired to bring big ideas to life through creative filmmaking. Former co-founder of Umbrella Games. Creator of Monster Merge & other AppStore top 10 video games.</span>
+        <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
+        </div>
+    
+        </div>
+       </div>
+
+
+         <div className="col-sm-12 col-md-6 col-lg-3 text-center">
+      <div className="member_card">
+        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
+        <div className="team-socials">
+<a href="https://twitter.com" target={{target:"_blank"}}>
+                            <img className="seicon" src="assets/images/twitter.svg"/>
+                            </a>
+                            </div> </div>
+        <div className="content_member">
+        <h3 className="member_name">Syed Qasim</h3>
+        <h3 className="member_disg">Creative Director</h3>
+        <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
         </div>
     
         </div>
@@ -225,9 +225,10 @@ support someone else for FREE very soon!</li>
 			</div>
 			<div className="timeline-content">
                 <p className="timeline_phase text-left"> 
-                <li>Buy land in the Sandbox for future metaverse integration</li>
-                <li>Begin building the 3D Pakalolo for metaverse integration</li>	
-	
+                <li>Start the development of Roadmap 2.0 with the community</li>
+                <li>Continue to support more Pakalolo holders NFT’s and continue 
+to grow the Pakalolo Buzz community Income threw the join 
+ventures.</li>	
                 </p>
 			</div>
 		</div>
@@ -238,10 +239,8 @@ support someone else for FREE very soon!</li>
 			</div>
 			<div className="timeline-content">
                 <p className="timeline_phase text-left"> 
-                <li>Start the development of Roadmap 2.0 with the community</li>
-                <li>Continue to support more Pakalolo holders NFT’s and continue 
-to grow the Pakalolo Buzz community Income threw the join 
-ventures.</li>	
+<li>We will be buying land in the Sandbox for future metaverse integration</li>
+                <li>Begin building the 3D Pakalolo for metaverse integration</li>	
 	
                 </p>
 			
@@ -389,6 +388,9 @@ who is a great artist.
                
         </div>
         </div>
+        <h1 className="heading_h1 set_fair pb-1">Fair Distribution </h1>
+        <p className="member_bio">All NFT art cost 0.14 and are minted randomly, sight unseen.  You never know what you are going to get! Once the initial sale is complete , all Pakalolo will be revealed. You can buy and NFT on the secondary market at OpenSea.io to get specific Pakalolo you want to complete your collection.</p>
+
 		
                 </div>
                 </div>
@@ -413,7 +415,8 @@ who is a great artist.
 
                     </a>
                    </div>
-                   <p className="para"> © COPYRIGHT 2022 PAKALOLO BUZZ | ALL RIGHTS RESERVED ® </p>
+                   <p className="para"> if you are interested in get help with your on NFT projects please contact Support @pakalolo.io<br />
+                   © COPYRIGHT 2022 PAKALOLO BUZZ | ALL RIGHTS RESERVED ® </p>
         </div>
         </div>
         </div>
