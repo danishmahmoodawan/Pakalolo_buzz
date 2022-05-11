@@ -51,13 +51,13 @@ function Home() {
 	<div className="container">
 		<div className="row custom_row p-5">
         <div className="col-sm-6 text-center">
-        <img className="img_set" src="assets/images/images1.gif"/>
+        <img className="img_set" src="assets/images/65.png"/>
         </div>
         <div className="col-sm-6">
         <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
         <p className="para_p">Pakalolo Buzz is a community driven collection of 10k randomly generated NFT’s on the Ethereum blockchain.<br />
         Each Pakalolo is totally unique and comes with different traits and varying in rarity. <br /> <br />
-        Each one will be your ticket into the 1st Web3 membership platform for profit sharing and supporting other creative minds. <br /> 
+        Each one will be your ticket into the 1st Web3 membership platform for profit sharing supporting other creative minds. <br /> 
         </p>
         </div>
 		
@@ -66,8 +66,7 @@ function Home() {
         <div className="col-sm-6 ">
         <h1 className="heading_h1">HOW DOES THIS WORK?</h1>
         <p className="para_p">Pakalolo Buzz holders can participate 
-in exclusive events, such as: NFT 
-claims, raffles, giveaways and much, 
+claims, raffles, giveaways, maybe add potential profit sharing and much, 
 much more. <br/><br/>
 Don't forget, all Pakalolo are special -- 
 but some are exceptionally special.<br/>
@@ -76,7 +75,7 @@ out our roadmap below.</p>
         </div>
         <div className="col-sm-6 text-center">
 
-<img className="img_set" src="assets/images/image3.png"/>
+<img className="img_set" src="assets/images/78.png"/>
 
         </div>
 			
@@ -211,7 +210,7 @@ Yes we had computers back then. I have been in the website building to games on 
                 <li>Launch Membership platform for profit sharing and supporting 
 other creative minds. “Yes we are going to make NFT projects 
 for some of our member on our dime, and you will make part 
-of the profits! More one this later, but we are looking to 
+of the profits! Move on this later, but we are looking to 
 support someone else for FREE very soon!</li>
                
                 </p>
@@ -227,7 +226,7 @@ support someone else for FREE very soon!</li>
                 <p className="timeline_phase text-left"> 
                 <li>Start the development of Roadmap 2.0 with the community</li>
                 <li>Continue to support more Pakalolo holders NFT’s and continue 
-to grow the Pakalolo Buzz community Income threw the join 
+to grow the Pakalolo Buzz community Income through the joint 
 ventures.</li>	
                 </p>
 			</div>
@@ -257,7 +256,9 @@ ventures.</li>
 	<div className="container">
 		<div className="row faq_row p-5">
         <div className="col-sm-12">
-        <h1 className="heading_h1 pb-3">Frequently Asked Questions  </h1>
+        <p className="para"> if you are interested in get help with your on NFT projects please contact <a className="aref" href="mailto:Support@pakalolo.io" target={{target:"_blank"}}>Support@pakalolo.io</a>
+</p>
+        <h1 className="heading_h1 pb-3 pt-4">Frequently Asked Questions  </h1>
         <div id="accordion">
                <div className="card">
                   <div className="card-header" id="headingOne">
@@ -389,7 +390,7 @@ who is a great artist.
         </div>
         </div>
         <h1 className="heading_h1 set_fair pb-1">Fair Distribution </h1>
-        <p className="member_bio">All NFT art cost 0.14 and are minted randomly, sight unseen.  You never know what you are going to get! Once the initial sale is complete , all Pakalolo will be revealed. You can buy and NFT on the secondary market at OpenSea.io to get specific Pakalolo you want to complete your collection.</p>
+        <p className="member_bio">Each NFT art costs 0.14 and are minted randomly, sight unseen.  You never know what you are going to get! Once the initial sale is complete , all Pakalolo will be revealed. You can buy and NFT on the secondary market at OpenSea.io to get specific Pakalolo you want to complete your collection.</p>
 
 		
                 </div>
@@ -415,7 +416,7 @@ who is a great artist.
 
                     </a>
                    </div>
-                   <p className="para"> if you are interested in get help with your on NFT projects please contact Support @pakalolo.io<br />
+                   <p className="para">
                    © COPYRIGHT 2022 PAKALOLO BUZZ | ALL RIGHTS RESERVED ® </p>
         </div>
         </div>
