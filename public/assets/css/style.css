@@ -94,6 +94,9 @@ width: 100%;
   .team-socials, .member_image, .member_card {
       position: relative;
   }
+  .secicona{
+width: 30px;
+  }
 .member_image:hover{
    /* background-image: url('Mikael.gif') !important;  
     object-fit: cover;

@@ -135,14 +135,14 @@ Yes we had computers back then. I have been in the website building to games on 
       <div className="member_card">
         <div className="member_image"><img className="img_sm" src="assets/images/59.png"/>
         <div className="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
-                            <img className="seicon" src="assets/images/twitter.svg"/>
+<a href="https://www.instagram.com/galictic_nftstudio/" target={{target:"_blank"}}>
+                            <img className="secicona" src="assets/images/icon/icons8-instagram.svg"/>
                             </a>
                             </div> </div>
         <div className="content_member">
-        <h3 className="member_name">Talal</h3>
-        <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
+        <h3 className="member_name">Galictic NFT <br /> Studio</h3>
+        
+        <span className="member_bio">We are a team of professional print on demand sellers and designers. With several years of experience in this field, we will be able to help you on your journey to success! Our team consists of handpicked members that highly value customer satisfaction. Great design involves thinking outside the box and letting ideas come from infinity and that’s how We approach every design</span>
         </div>
     
         </div>
@@ -256,7 +256,7 @@ ventures.</li>
 	<div className="container">
 		<div className="row faq_row p-5">
         <div className="col-sm-12">
-        <p className="para"> if you are interested in get help with your on NFT projects please contact <a className="aref" href="mailto:Support@pakalolo.io" target={{target:"_blank"}}>Support@pakalolo.io</a>
+        <p className="para text-center"> if you are interested in get help with your on NFT projects please contact <a className="aref" href="mailto:Support@pakalolo.io" target={{target:"_blank"}}>Support@pakalolo.io</a>
 </p>
         <h1 className="heading_h1 pb-3 pt-4">Frequently Asked Questions  </h1>
         <div id="accordion">
