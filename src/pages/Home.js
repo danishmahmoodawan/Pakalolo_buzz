@@ -93,7 +93,7 @@ out our roadmap below.</p>
         <div className="row">
         <div className="col-sm-12 col-md-6 col-lg-3 text-center">
       <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
+        <div className="member_image"><img className="img_sm" src="assets/images/56.png"/>
         <div className="team-socials">
 <a href="https://twitter.com" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
@@ -110,7 +110,7 @@ out our roadmap below.</p>
 
          <div className="col-sm-12 col-md-6 col-lg-3 text-center">
       <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
+        <div className="member_image"><img className="img_sm" src="assets/images/64.png"/>
         <div className="team-socials">
 <a href="https://twitter.com" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
@@ -133,7 +133,7 @@ Yes we had computers back then. I have been in the website building to games on 
 
          <div className="col-sm-12 col-md-6 col-lg-3 text-center">
       <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
+        <div className="member_image"><img className="img_sm" src="assets/images/59.png"/>
         <div className="team-socials">
 <a href="https://twitter.com" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
@@ -151,16 +151,16 @@ Yes we had computers back then. I have been in the website building to games on 
 
          <div className="col-sm-12 col-md-6 col-lg-3 text-center">
       <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/team_mikael.png"/>
+        <div className="member_image"><img className="img_sm" src="assets/images/34.png"/>
         <div className="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
+<a href="https://twitter.com/syed_eth" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
                             </div> </div>
         <div className="content_member">
         <h3 className="member_name">Syed Qasim</h3>
-        <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
+        <h3 className="member_disg">Dev Developer</h3>
+        <span className="member_bio">Syed is The Co-Founder of Galictic NFT Studio. I just love the vibe of NFTs since Late 2020s, Smart Contract Deployer and Advanced NFT Generation.</span>
         </div>
     
         </div>

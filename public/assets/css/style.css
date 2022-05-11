@@ -95,7 +95,7 @@ width: 100%;
       position: relative;
   }
 .member_image:hover{
-    background-image: url('Mikael.gif') !important; 
+   /* background-image: url('Mikael.gif') !important;  
     object-fit: cover;
     background-size: cover;
     width: 100%;
@@ -104,10 +104,10 @@ width: 100%;
     overflow: hidden;
     line-height: 0;
     border: 4px solid #fff;
-    box-shadow: 5px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 20%); 
 }
-.img_sm:hover{
-    opacity: 0;
+.img_sm:hover{ 
+    opacity: 0; */
 }
 .logo_s{
     padding-bottom: 12px;
