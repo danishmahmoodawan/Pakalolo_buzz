@@ -12,7 +12,7 @@ function Home() {
                 </button>
             
                 <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav ml-auto">
+                    <ul className="navbar-nav ml-auto setspace">
                         <li className="nav-item active">
                             <a className="nav-link" href="#pakaloloimg">Pakalolo</a>
                         </li>
@@ -24,7 +24,7 @@ function Home() {
                         </li>
                         
                     </ul>
-                    <span className="navbar-text" >
+                    <span className="navbar-text setspace" >
                             <a href="https://twitter.com" target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
@@ -165,10 +165,12 @@ Yes we had computers back then. I have been in the website building to games on 
     
         </div>
        </div>
-		
+    
                 </div>
           
 				</div>
+                <p className="para text-center set_earn"> if you are interested in getting help with your on NFT's project please contact <a className="aref" href="mailto:Support@pakalolo.io" target={{target:"_blank"}}>Support@pakalolo.io</a>
+</p>
 				</section>
 
   <section id="roadmap" className="roadmap">
@@ -256,8 +258,6 @@ ventures.</li>
 	<div className="container">
 		<div className="row faq_row p-5">
         <div className="col-sm-12">
-        <p className="para text-center"> if you are interested in get help with your on NFT projects please contact <a className="aref" href="mailto:Support@pakalolo.io" target={{target:"_blank"}}>Support@pakalolo.io</a>
-</p>
         <h1 className="heading_h1 pb-3 pt-4">Frequently Asked Questions  </h1>
         <div id="accordion">
                <div className="card">
