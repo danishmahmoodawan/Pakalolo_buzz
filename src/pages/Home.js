@@ -1,9 +1,13 @@
 
 import { useState, useEffect } from 'react';
-function Home() {
-    
+const Home = () => {
+    const [discord, setdiscord] = useState('https://discord.gg/AzDEGHjs');
+    const [twitter, settwitter] = useState('https://twitter.com/PakaloloBuzz');
+    const [facebook, setfacebook] = useState('https://www.facebook.com/profile.php?id=100081314853356');
+    const [instagram, setinstagram] = useState('https://www.instagram.com/pakalolobuzz/');
+    const [opensea, setopensea] = useState('https://opensea.io/');
   return (
-   <> 
+   <>
    <div className="cotainer bg-nav" style={{paddingLeft: "10%",paddingRight: "10%"}}>
             <nav className="navbar navbar-expand-lg navbar-light ">
                 <a className="navbar-brand" href="#"><img className="logo_s" src="assets/images/logo.png"/></a>
@@ -25,13 +29,13 @@ function Home() {
                         
                     </ul>
                     <span className="navbar-text setspace" >
-                            <a href="https://twitter.com" target={{target:"_blank"}}>
+                            <a href={twitter} target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
-                            <a href="https://twitter.com" target={{target:"_blank"}}>
+                            <a href={discord} target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/discord.svg"/>
                             </a>
-                            <a href="https://opensea.io/collection" target={{target:"_blank"}}>
+                            <a href={opensea} target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/opensea.svg"/>
                             </a>
                     </span>
@@ -95,13 +99,13 @@ out our roadmap below.</p>
       <div className="member_card">
         <div className="member_image"><img className="img_sm" src="assets/images/56.png"/>
         <div className="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
+<a href={twitter} target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
                             </div> </div>
         <div className="content_member">
-        <h3 className="member_name">Smoking Tester</h3>
-        <h3 className="member_disg">Creative Director</h3>
+        <h3 className="member_name">Brandon</h3>
+        <h3 className="member_disg">Smoking Tester</h3>
         <span className="member_bio">I am a seasoned entrepreneur, with several business. I was introduced to crypt a few years ago and have now turned my attention to NFT’s and the projects and the smart chair contract can be used for.</span>
         </div>
     
@@ -109,25 +113,23 @@ out our roadmap below.</p>
        </div>
 
          <div className="col-sm-12 col-md-6 col-lg-3 text-center">
-      <div className="member_card">
-        <div className="member_image"><img className="img_sm" src="assets/images/64.png"/>
-        <div className="team-socials">
-<a href="https://twitter.com" target={{target:"_blank"}}>
+            <div className="member_card">
+                <div className="member_image"><img className="img_sm" src="assets/images/64.png"/>
+                    <div className="team-socials">
+                        <a href={twitter} target={{target:"_blank"}}>
                             <img className="seicon" src="assets/images/twitter.svg"/>
                             </a>
-                            </div> </div>
-        <div className="content_member">
-        <h3 className="member_name">Clay</h3>
-        <h3 className="member_disg">Creative Director</h3>
-        <span className="member_bio">I have be in the internet space of some kind all the way back to basic programing on a Radio Shack TSR-80 computer. 
-
-That is before floppy drives or cloud storage. 
-
-Yes we had computers back then. I have been in the website building to games on the app stores. I look forward to bring some ideas to the NFT market that will hopefully bring some income to us all. More to come about that but we are going to help some holds of our NFT’s make there on project ROAD MAP.
-</span>
-        </div>
-    
-        </div>
+                    </div>
+                </div>
+                <div className="content_member">
+                    <h3 className="member_name">Clay</h3>
+                    <h3 className="member_disg">Creative Director</h3>
+                    <span className="member_bio">I have be in the internet space of some kind all the way back to basic programing on a Radio Shack TSR-80 computer. 
+                            That is before floppy drives or cloud storage. 
+                            Yes we had computers back then. I have been in the website building to games on the app stores. I look forward to bring some ideas to the NFT market that will hopefully bring some income to us all. More to come about that but we are going to help some holds of our NFT’s make there on project ROAD MAP.
+                    </span>
+                </div>
+            </div>
        </div>
 
 
@@ -195,9 +197,17 @@ Yes we had computers back then. I have been in the website building to games on 
 
                 </p>
 				<div className="thumbs">
-                <img className="seicn cbw img-fluid" src="assets/images/twitter.svg"/>
-                <img className="seicn cbw" src="assets/images/discord.svg"/>
-                <img className="seicn " src="assets/images/icon/icons8-instagram.svg"/>
+                <span className="navbar-text setspace" >
+                            <a href={twitter} target={{target:"_blank"}}>
+                            <img className="seicon" src="assets/images/twitter.svg"/>
+                            </a>
+                            <a href={instagram} target={{target:"_blank"}}>
+                                          <img className="seico" style={{width:"30px",maxWidth: "60px"}} src="assets/images/icon/icons8-instagram.svg"/>
+                            </a>
+                            <a href={discord} target={{target:"_blank"}}>
+                            <img className="seicon" src="assets/images/discord.svg"/>
+                            </a>
+                    </span>
 				</div>
 			</div>
 		</div>
@@ -404,14 +414,14 @@ who is a great artist.
 
 
         <div className="main-block pb-3"> 
-                   <a href="https://twitter.com" target={{target:"_blank"}}>
+                   <a href={twitter} target={{target:"_blank"}}>
                    <img className="seicn cbw" src="assets/images/twitter.svg"/>
                    </a>
 
-                   <a href="https://discord.com" target={{target:"_blank"}}>
+                   <a href={discord} target={{target:"_blank"}}>
                    <img className="seicn cbw" src="assets/images/discord.svg"/>
                             </a>
-                   <a href="https://opensea.io/collection" target={{target:"_blank"}}>
+                   <a href={opensea} target={{target:"_blank"}}>
                    <img className="seicn cbw" src="assets/images/opensea.svg"/>
 
                     </a>
