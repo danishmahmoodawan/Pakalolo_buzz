@@ -106,7 +106,7 @@ const Web3ReactConnectionComponent = () => {
                             <div className="row text-center mt-3 mb-3 ">
                                 <div className="col-sm-12 text-center">
                                     <button onClick={connectMetamaskSimple} className="btn_cion btn_meta btn btn-info">
-                                        <img className="seicon" src="images/icons/metamask.svg" />
+                                        <img className="icon_wallets" src="assets/images/metamask.svg" />
                                         <span className="text_icn"> Metamask </span>
                                     </button>
                             
@@ -115,14 +115,14 @@ const Web3ReactConnectionComponent = () => {
                             <div className="row text-center mt-3 mb-3 ">
                                 <div className="col-sm-12">
                                     <button onClick={connectWalletConnectSimple} className="btn_cion btn_connect btn btn-info">
-                                        <img className="seicon" src="images/icons/walletconnect.svg" />
+                                        <img className="icon_wallets" src="assets/images/walletconnect.svg" />
                                         <span className="text_icn"> WalletConnect </span></button>
                                 </div>
                             </div>
                             <div className="row text-center mt-3 mb-3 ">
                                 <div className="col-sm-12">
                                     <button onClick={connectCoinbaseSimple} className="btn_cion btn_cb btn btn-info">
-                                        <img className="seicon" src="images/icons/coinbasewallet.svg" />
+                                        <img className="icon_wallets" src="assets/images/coinbasewallet.svg" />
                                         <span className="text_icn"> CoinBase </span></button>
                                 </div>
                             </div>                    </Fragment>
@@ -532,23 +532,13 @@ const Web3ReactConnectionComponent = () => {
                 </div>
             </section>
 
-            <section id="about_pakalolo" className="first_section">
+            <section id="connect_pakalolo" className="first_section connect_section">
                 <div className="container">
                     <div className="row custom_row p-5">
-                        <div className="col-sm-6 text-center">
-                            <img className="img_set" src="assets/images/65.png" />
-                        </div>
-                        <div className="col-sm-6">
-                            <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
-                            <p className="para_p">Pakalolo Buzz is a community driven collection of 10k randomly generated NFT’s on the Ethereum blockchain.<br />
-                                Each Pakalolo is totally unique and comes with different traits and varying in rarity. <br /> <br />
-                                Each one will be your ticket into the 1st Web3 membership platform for profit sharing supporting other creative minds. <br />
-                            </p>
-                        </div>
-                
-                    </div>
-
-                    <div id="mint" className="row custom_row p-5 herofour">
+                       
+                        <div className="col-sm-12">
+                       
+                    <div id="mint" className="herofour">
                         { error && (
                             <>
                                 { error === "Make sure you are on Etherium Mainnet" ? (
@@ -712,8 +702,26 @@ const Web3ReactConnectionComponent = () => {
                         {showModal ? <Modal setShowModal={setShowModal} /> : null}
                     </div>
 
-
-
+                        </div>
+                
+                    </div>
+</div>
+</section>
+            <section id="about_pakalolo" className="about_pakalolo">
+                <div className="container">
+                    <div className="row custom_sec_row p-5">
+                        <div className="col-sm-6 text-center">
+                            <img className="img_set" src="assets/images/65.png" />
+                        </div>
+                        <div className="col-sm-6">
+                            <h1 className="heading_h1">Pakalolo Buzz are what?</h1>
+                            <p className="para_p">Pakalolo Buzz is a community driven collection of 10k randomly generated NFT’s on the Ethereum blockchain.<br />
+                                Each Pakalolo is totally unique and comes with different traits and varying in rarity. <br /> <br />
+                                Each one will be your ticket into the 1st Web3 membership platform for profit sharing supporting other creative minds. <br />
+                            </p>
+                        </div>
+                
+                    </div>
 
                     <div className="row custom_rows p-5 mb-5">
                         <div className="col-sm-6 ">
