@@ -1,7 +1,7 @@
 import { Contract } from '@ethersproject/contracts';
 
 // export const contractAddress = '0x094a44a140ef59b8ebf9e7fa92234649dc44cd2f';
-export const contractAddress = '0x0D11B31452bfACbC89d21CB720d5ecF63b1CDB92';
+export const contractAddress = '0x0B35E1C9791e9FCca8853e8d1355faf3518CbA34';
 
 export const getContract = (library, account) => {
 
@@ -19,6 +19,11 @@ export const contractAbi = [
 				"internalType": "string",
 				"name": "_uri",
 				"type": "string"
+			},
+			{
+				"internalType": "address payable",
+				"name": "_owner_wallet",
+				"type": "address"
 			},
 			{
 				"internalType": "address payable",
@@ -111,6 +116,19 @@ export const contractAbi = [
 			}
 		],
 		"name": "changeNotRevealedUri",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address payable",
+				"name": "_address",
+				"type": "address"
+			}
+		],
+		"name": "changeOwnerWallet",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"

@@ -49,17 +49,19 @@ const Web3ReactConnectionComponent = () => {
     const [mintNumber, setMintNumber] = useState(1)
     const [WLmintNumber, setWLMintNumber] = useState(1)
 
-    const [tokenPrice, setTokenPrice] = useState('0.1');
-    const [strTokenPrice, setStrTokenPrice] = useState('0.1Ξ');
+    const [tokenPrice, setTokenPrice] = useState('0.12');
+    const [strTokenPrice, setStrTokenPrice] = useState('0.12Ξ');
     const [strTokenPriceExtra, setStrTokenPriceExtra] = useState(' (0.15Ξ after 20%mint progress)');
 
     const [WLtokenPrice, WLsetTokenPrice] = useState('0.05');
     const [WLstrTokenPrice, WLsetStrTokenPrice] = useState('0.05Ξ');
 
-    const [showWhitelistButton, setshowWhitelistButton] = useState(true);
-    const [isPublicSaleActive, setPublicSaleActive] = useState(false);
+    const [showWhitelistButton, setshowWhitelistButton] = useState(false);
+    const [isPublicSaleActive, setPublicSaleActive] = useState(true);
 
     useEffect(() => {
+        // Code to Store the last connection
+        /*
         try {
             if (localStorage.getItem("wallet_type") == "metamask") {
                 connectMetamaskSimple();
@@ -77,6 +79,7 @@ const Web3ReactConnectionComponent = () => {
         } catch (error) {
             console.log("error", error)
         }
+        */
     }, [])
 
     
@@ -230,7 +233,7 @@ const Web3ReactConnectionComponent = () => {
             setMintNumber(mintNumber - 1);
     };
     async function increaseMintNumber() {
-        if (mintNumber < 2)
+        if (mintNumber < 10)
             setMintNumber(mintNumber + 1);
     };
 
@@ -343,7 +346,7 @@ const Web3ReactConnectionComponent = () => {
                 let transaction;
                 if (mintType === 'mint') {
                     console.log("minting method")
-                    transaction = await myContractSigner.mint(mintNumber, { value: ethers.utils.parseEther(total_price) });
+                    transaction = await myContractSigner.regularMint(mintNumber, { value: ethers.utils.parseEther(total_price) });
                     await transaction.wait();
                 }
                 else if (mintType === 'premint') {
@@ -365,7 +368,7 @@ const Web3ReactConnectionComponent = () => {
                     return
                 }
 
-                console.log("Transaction Done ", "https://etherscan.io/tx/", transaction.hash);
+                console.log("Transaction Done ", "https://etherscan.io/tx/"+transaction.hash);
                 setMessage("NFTs Minted Successfully");
                 fetchData();
                 setError("");
@@ -373,7 +376,7 @@ const Web3ReactConnectionComponent = () => {
 
             }
             catch (err) {
-                // console.log("Error", err)
+                console.log("Error", err)
                 setMessage("");
 
                 if (err?.code === 4001) {
@@ -610,7 +613,7 @@ const Web3ReactConnectionComponent = () => {
 
                                                                     <button className="mintbtn m-2" onClick={increaseMintNumber}>+</button>
                                                                         <span className="d-block"><strong>{strTokenPrice}</strong></span>
-                                                                    <span className="d-block">Max Mint 2</span>
+                                                                    <span className="d-block">Max Mint 10</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -770,7 +773,7 @@ const Web3ReactConnectionComponent = () => {
                             <div className="member_card">
                                 <div className="member_image"><img className="img_sm" src="assets/images/64.png" />
                                     <div className="team-socials">
-                                        <a href={twitter} target={{ target: "_blank" }}>
+                                        <a href="https://twitter.com/clay_holladay1" target={{ target: "_blank" }}>
                                             <img className="seicon" src="assets/images/twitter.svg" />
                                         </a>
                                     </div>
