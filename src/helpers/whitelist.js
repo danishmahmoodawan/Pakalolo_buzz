@@ -1,7 +1,7 @@
 // const keccak256 = require("keccak256");
 
 
-export const whitelist = [
+export var whitelist = [
     '0x0bD045002056031154153cafF31336DFA3EBD844',
     
 

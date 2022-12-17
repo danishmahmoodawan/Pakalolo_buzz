@@ -16,23 +16,7 @@ const hexroot = tree.getHexRoot()
 // console.log("proof root hex", root.toString("hex"))
 console.log("proof root", hexroot)
 
-export function getProofs  (address) {
-    // console.log(0);
-    // let tree, leaves;
-    // try {
-    //      leaves =  whitelist.map(x => keccak256(x));
-    // }
-    // catch(err){
-    //     console.log(err)
-    // }
-    // try {
-    //     tree = new MerkleTree(leaves , keccak256 , {sortPairs: true});
-    //     //  console.log(tree);
-    // }
-    // catch(err){
-    //     console.log(err)
-    // }
-    
+export function getProofs  (address) {   
     
     return tree.getHexProof(ethers.utils.keccak256(address.toString('hex')));
 }

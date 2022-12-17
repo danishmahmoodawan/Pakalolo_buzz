@@ -8,7 +8,7 @@ const RPC_URLS = {
 };
 
 //metamask
-export const injected = new InjectedConnector({
+export const metamaskconnect = new InjectedConnector({
 	supportedChainIds: [1,4]
 });
 
@@ -29,8 +29,8 @@ export function resetWalletConnector(connector) {
 }
 
 //coinbase
-export const walletlink = new WalletLinkConnector({
+export const coinbaseconnect = new WalletLinkConnector({
 	url: RPC_URLS[1],
-	appName: 'ZERO PROJECT',
+	appName: 'Pakalolo Buzz',
 	supportedChainIds: [ 1],
 });

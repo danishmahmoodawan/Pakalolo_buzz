@@ -137,7 +137,7 @@ code {
     margin-bottom: 10px !important;
     padding: 10px;
     color: var(--text-color);
-    background-color: hsl(94deg 54% 51%);
+    background-color: #ffbb0c !important;
     border-radius: 10px;
     width: fit-content;
     margin: 0 auto;
@@ -145,13 +145,13 @@ code {
 }
 
 .mint_bar {
-    width: 70%;
+    width: 50%;
     margin: 20px auto;
     height: 30px;
 }
 
 .progress-bar {
-    background-color: #000000;
+    background-color: #0083cf !important;
 
 }
 
@@ -232,17 +232,43 @@ code {
     box-shadow: #aca234 0px 4px 10px;
 }
 
+.mint_under_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.mint_under_button .bg-info, .bg-success, .bg-danger {
+    padding: 10px;
+    min-width: 380px;
+    width: 100%;
+    border-radius: 5px;
+}
+.mint_under_button a,p {
+    text-decoration: none;
+}
 
 
 
 
 
 
+.mint_area_section{
+    border-color: #FFCF00;
+    border-radius: 10px;
+    border-style: double;
+}
 
+.opacity_25 {
+    opacity: .25 !important;
+}
 
+.opacity_50 {
+    opacity: .5 !important;
+}
 
-
-
+.opacity_100 {
+    opacity: 1 !important;
+}
 
 
 
