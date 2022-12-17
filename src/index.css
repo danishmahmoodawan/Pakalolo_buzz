@@ -1,13 +1,278 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
+#portal .container {
+    position: fixed;
+    opacity: 98%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.container .modal {
+    /* z-index: 2; */
+    width: 80%;
+    height: 70%;
+    background: rgb(240, 247, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    animation: animate 0.3s;
+}
+
+.heroone .mint_under_button p {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal .closemdlbtn {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 8px 11px;
+    background: crimson;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    from {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+.btn_meta {
+    background: #d06608;
+}
+
+.btn_connect {
+    background: #04192f;
+}
+.custom_row,
+.custom_rows {
+    background: #e11ba7;
+    margin-top: -7%;
+    border-radius: 10px;
+}
+.custom_rows {
+    margin-top: 6%;
+}
+
+@media screen and (max-width: 1220px) and (min-width: 992px) {
+    .custom_row {
+        margin-top: -10%;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .custom_row {
+        margin-top: -10%;
+    }
+}
+
+.cust_modal {
+    height: 60% !important;
+}
+
+.closemdlbtn {
+    /* top: -25px !important; */
+}
+
+.btn_cion:hover {
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slidebg 5s linear infinite;
+}
+
+.text_icn {
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 4px;
+}
+
+.btn_cion {
+    width: 100%;
+    max-width: 200px;
+}
+
+.btn_meta {
+    background: #d06608;
+}
+
+.btn_connect {
+    background: #04192f;
+}
+
+.btn_cb {
+    background: #0552fc;
+}
+
+.mintedcounts {
+    font-size: 18px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: #ffbb0c !important;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.mint_bar {
+    width: 50%;
+    margin: 20px auto;
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #0083cf !important;
+
+}
+
+.mint_under_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.mint_under_button span {
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-weight: 300;
+    margin: 0px auto 0px;
+}
+
+.mint_under_button .bg-success {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: none;
+}
+
+.mintedcountsbar {
+    font-size: 18px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 10px;
+    color: var(--text-color);
+    background-color: hsl(94deg 54% 51%);
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.mintbtn {
+    margin-left: 220px;
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: var(--text-color);
+
+    background-color: var(--btn-color);
+    border-radius: 20px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.amountbtn {
+    position: relative;
+    padding: 0px 10px;
+    border: none;
+    color: black !important;
+    background-color: transparent !important;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: var(--text-color);
+
+    background-color: var(--btn-color);
+    border-radius: 20px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.mintbtn:hover {
+    outline-color: transparent;
+    box-shadow: #aca234 0px 4px 10px;
+}
+
+.mint_under_button {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.mint_under_button .bg-info, .bg-success, .bg-danger {
+    padding: 10px;
+    min-width: 380px;
+    width: 100%;
+    border-radius: 5px;
+}
+.mint_under_button a,p {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.mint_area_section{
+    border-color: #FFCF00;
+    border-radius: 10px;
+    border-style: double;
+}
+
+.opacity_25 {
+    opacity: .25 !important;
+}
+
+.opacity_50 {
+    opacity: .5 !important;
+}
+
+.opacity_100 {
+    opacity: 1 !important;
+}
+
+
+
+
+
+
+

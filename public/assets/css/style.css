@@ -6,6 +6,12 @@
     font-family: 'Bungee';
     src: url('../fonts/Bungee-Regular.ttf');
 }
+@keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  
 body{
     background: #02389a;
 }
@@ -24,6 +30,13 @@ body{
     margin-top: -7%;
     border-radius: 10px;
 }
+.custom_sec_row{
+    background: #e11ba7;
+    border-radius: 10px;
+}
+.about_pakalolo{
+margin-top: 5%;
+}
 .img_set{
 border-radius: 20px;
 }
@@ -34,8 +47,66 @@ border-radius: 20px;
 .aref{
 color: white;
 }
+/* connect btn css start */
+
+.mintbtn {
+    margin-left: 220px;
+  position:relative;
+  padding: 10px 20px;  
+  border: none;
+  background-color: #ffbb0c !important;
+  cursor: pointer;
+  
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 23px;  
+  color: var(--text-color);
+    border-radius: 20px; 
+  z-index: 0;  
+  overflow: hidden;   
+}
+.amountbtn {
+  position:relative;
+  padding: 0px 10px;  
+  border: none;
+  color: black !important;
+  background-color: transparent !important;
+  
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 24px;  
+  color: var(--text-color);
+  
+  background-color: var(--btn-color);
+  border-radius: 20px; 
+  z-index: 0;  
+  overflow: hidden;   
+}
+
+.mintbtn:hover {
+  outline-color: transparent;
+  box-shadow: #aca234 0px 4px 10px;
+}
+
+/*  */
+
+.btn_cion:hover{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 5s linear infinite;
+}
+.text_icn{
+font-size: 18px;
+font-weight: bold;
+}
+.btn_cion{
+width: 100%;
+max-width: 200px;
+background: #141218;
+}
+
+/* connect btn css end */
 .custom_rows{
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
 #about_team{
@@ -147,6 +218,11 @@ margin-bottom: 1.5em !important;
   width: 30px;
   margin: 0px 5px;
   filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(178%) contrast(110%);
+  }
+  .icon_wallets{
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
   }
   .seicon:hover{
           filter: invert(120%) sepia(101%) saturate(98%) hue-rotate(97deg) brightness(102%) contrast(100%);
