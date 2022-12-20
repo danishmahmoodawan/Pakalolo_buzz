@@ -61,8 +61,8 @@ const Web3ReactConnectionComponent = () => {
     // const [strTokenPriceExtra, setStrTokenPriceExtra] = useState(' (0.15Ξ after 20%mint progress)');
     const [maxMint, setmaxMint] = useState(2);
     
-    const [WLtokenPrice, WLsetTokenPrice] = useState('0.042');
-    const [WLstrTokenPrice, WLsetStrTokenPrice] = useState('0.042Ξ');
+    const [WLtokenPrice, WLsetTokenPrice] = useState('0.05');
+    const [WLstrTokenPrice, WLsetStrTokenPrice] = useState('0.05Ξ');
 
     const [showWhitelistButton, setshowWhitelistButton] = useState(false);
     const [isPublicSaleActive, setPublicSaleActive] = useState(false);
@@ -326,7 +326,7 @@ const Web3ReactConnectionComponent = () => {
                     }
 
                     try {
-                        let ownedTokens_str = String(await contract.tokensOfWallet(web3reactContext.account));
+                        let ownedTokens_str = String(await contract.walletOfOwner(web3reactContext.account));
                         let ownedTokens = ownedTokens_str.split(",").map(Number);
                         let last_token = ownedTokens[ownedTokens.length - 1]
                         setmintedNFT("https://opensea.io/assets/ethereum/" +contractAddress +"/" +last_token)
@@ -949,10 +949,10 @@ const Web3ReactConnectionComponent = () => {
                                                         <div className="row">
                                                             <div className="col-sm  text-center ">
                                                                 <div className="buttons_mint_div">
-                                                                    <button className={`mintbtn m-2 opacity_${mintNumber<2 ? "50" : "100"}`} disabled={mintNumber<2 ? 1 : 0} onClick={WLdecreaseMintNumber}>-</button>
+                                                                    <button className={`mintbtn m-2 opacity_${WLmintNumber<2 ? "50" : "100"}`} disabled={WLmintNumber<2 ? 1 : 0} onClick={WLdecreaseMintNumber}>-</button>
                                                                     <button className="mintbtn m-2" disabled={claimingNft ? 1 : 0} onClick={() => take_action(2)}>{claimingNft ? "BUSY" : "WL MINT"} {WLmintNumber}</button>
 
-                                                                    <button className={`mintbtn m-2 opacity_${mintNumber>=maxMint ? "50" : "100"}`} disabled={mintNumber==maxMint ? 1 : 0} onClick={WLincreaseMintNumber}>+</button>
+                                                                    <button className={`mintbtn m-2 opacity_${WLmintNumber>=maxMint ? "50" : "100"}`} disabled={WLmintNumber>=maxMint ? 1 : 0} onClick={WLincreaseMintNumber}>+</button>
                                                                     <span className="d-block"><strong>{WLstrTokenPrice}</strong></span>
                                                                     <span className="d-block">Max Mint {maxMint}</span>
                                                                 </div>

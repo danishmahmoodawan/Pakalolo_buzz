@@ -1,7 +1,7 @@
 import { Contract } from '@ethersproject/contracts';
 
 // export const contractAddress = '0x094a44a140ef59b8ebf9e7fa92234649dc44cd2f';
-export const contractAddress = '0xafc079c8bbc8f0a2d1fc4fdd283c0bc3283f5d11';
+export const contractAddress = '0x5e1ac3cb4552681d1f57f31a9fc8f83df488d0fd';
 
 export const getContract = (library, account) => {
 
@@ -21,14 +21,9 @@ export const contractAbi = [
 				"type": "string"
 			},
 			{
-				"internalType": "address payable",
-				"name": "_owner_wallet",
-				"type": "address"
-			},
-			{
-				"internalType": "address payable",
-				"name": "_wallet",
-				"type": "address"
+				"internalType": "bytes32",
+				"name": "_merkleRootkey",
+				"type": "bytes32"
 			},
 			{
 				"internalType": "address payable",
@@ -226,6 +221,19 @@ export const contractAbi = [
 	{
 		"inputs": [
 			{
+				"internalType": "address[]",
+				"name": "_to",
+				"type": "address[]"
+			}
+		],
+		"name": "airdropTokens",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "address",
 				"name": "to",
 				"type": "address"
@@ -250,25 +258,6 @@ export const contractAbi = [
 			}
 		],
 		"name": "balanceOf",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_salePrice",
-				"type": "uint256"
-			}
-		],
-		"name": "calculateRoyalty",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -347,19 +336,6 @@ export const contractAbi = [
 	{
 		"inputs": [
 			{
-				"internalType": "address payable",
-				"name": "_address",
-				"type": "address"
-			}
-		],
-		"name": "changeWallet",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "uint256",
 				"name": "tokenId",
 				"type": "uint256"
@@ -416,6 +392,19 @@ export const contractAbi = [
 	{
 		"inputs": [],
 		"name": "limitMaxPremint",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "limitMaxPublicmint",
 		"outputs": [
 			{
 				"internalType": "bool",
@@ -577,24 +566,37 @@ export const contractAbi = [
 	{
 		"inputs": [
 			{
-				"internalType": "uint256",
-				"name": "n",
-				"type": "uint256"
+				"internalType": "address payable",
+				"name": "_address",
+				"type": "address"
 			}
 		],
-		"name": "reserve",
+		"name": "resetMintForAddress",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
 		"inputs": [],
-		"name": "reveal",
+		"name": "revealFrom",
 		"outputs": [
 			{
-				"internalType": "bool",
+				"internalType": "uint256",
 				"name": "",
-				"type": "bool"
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "revealTo",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
 			}
 		],
 		"stateMutability": "view",
@@ -608,61 +610,6 @@ export const contractAbi = [
 				"internalType": "string",
 				"name": "",
 				"type": "string"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "royaltyAddress",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "royaltyFeesInBips",
-		"outputs": [
-			{
-				"internalType": "uint96",
-				"name": "",
-				"type": "uint96"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_tokenId",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "_salePrice",
-				"type": "uint256"
-			}
-		],
-		"name": "royaltyInfo",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
 			}
 		],
 		"stateMutability": "view",
@@ -710,7 +657,7 @@ export const contractAbi = [
 			},
 			{
 				"internalType": "bytes",
-				"name": "_data",
+				"name": "data",
 				"type": "bytes"
 			}
 		],
@@ -740,6 +687,19 @@ export const contractAbi = [
 	{
 		"inputs": [
 			{
+				"internalType": "uint256",
+				"name": "_supply",
+				"type": "uint256"
+			}
+		],
+		"name": "setMaxSupply",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "bytes32",
 				"name": "_root",
 				"type": "bytes32"
@@ -758,25 +718,7 @@ export const contractAbi = [
 				"type": "uint256"
 			}
 		],
-		"name": "setPrice",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_receiver",
-				"type": "address"
-			},
-			{
-				"internalType": "uint96",
-				"name": "_royaltyFeesInBips",
-				"type": "uint96"
-			}
-		],
-		"name": "setRoyaltyInfo",
+		"name": "setMintPrice",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -816,6 +758,32 @@ export const contractAbi = [
 			}
 		],
 		"name": "setmaxPreMintAmount",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "revealFromid",
+				"type": "uint256"
+			}
+		],
+		"name": "setrevealFrom",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "revealToid",
+				"type": "uint256"
+			}
+		],
+		"name": "setrevealTo",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -869,13 +837,6 @@ export const contractAbi = [
 	{
 		"inputs": [],
 		"name": "togglePreMint",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "togglerevealToken",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
